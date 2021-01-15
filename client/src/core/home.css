@@ -1,0 +1,26 @@
+.view-all {
+	padding-top: 0px;
+	float: right;
+}
+.center-flexs {
+	justify-content: center;
+}
+.view-all a {
+	background: #df1a4c;
+	padding: 5px;
+	border-radius: 5px;
+	color: #fff;
+	transition: 2s;
+}
+
+.wrapper {
+	padding: 20px;
+	width: 100% !important;
+}
+.home-categories{
+	transition: 0.6s;
+	margin-bottom: 60px !important;
+}
+.home-categories:hover{
+	box-shadow: 4px 4px 4px 4px rgb(212, 206, 206);
+}

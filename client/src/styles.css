@@ -1,0 +1,184 @@
+/*starts custom css */
+body {
+	font-family: 'lato';
+	width: 95% !important;
+	/* max-width: 1850px; */
+	margin: 0 auto !important;
+	font-family: 'Roboto';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	transition: color 0.3s linear;
+}
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+	color: rgb(230, 117, 62) !important;
+}
+
+.content {
+	padding: 50px;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.submit-btn {
+	background: #243679;
+	color: white;
+	border: 0;
+	border-radius: 3px;
+}
+.form-control {
+	border: 2px solid #ced4da;
+}
+.showCategories .home-categories {
+	text-align: center;
+}
+.showCategories {
+	justify-content: center;
+}
+.showCategories img {
+	width: 60px;
+}
+.home-categories h6 {
+	color: rgb(65, 64, 63);
+}
+
+.form-control {
+	transition: border 2s linear;
+	max-width: 300px;
+}
+
+/*ends custom css */
+
+/**
+ * border radius
+ */
+
+.card {
+	width: 100%;
+	/* width:80; */
+	margin: 0 auto;
+}
+
+.card-header {
+	color: rgb(198, 18, 52);
+}
+
+.btn,
+.jumbotron,
+.nav :hover {
+	border-radius: 0px;
+}
+
+/* cart badge */
+
+.cart-badge,
+.cart-badge:hover {
+	border-radius: 50%;
+	padding: 2px;
+	font-size: 12px;
+	font-style: italic;
+	background: #000;
+}
+/**
+ * single product page - product name
+ */
+
+.name {
+	background: indigo;
+	color: #fff;
+	font-weight: bold;
+}
+
+a {
+	color: rgb(216, 28, 75);
+}
+.site-name-footer {
+	color: #999;
+}
+
+/* top up thumb */
+.center-flex {
+	justify-content: center;
+	margin: 50px auto 0;
+}
+.center-flex .product-img {
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+}
+.thumb-show {
+	text-align: center;
+}
+
+/* black shade form 10-1 */
+.black-10 {
+	background: #f2f2f2;
+}
+.black-9 {
+	background: #e6e6e6;
+}
+.black-8 {
+	background: #d9d9d9;
+}
+.black-7 {
+	background: #cccccc;
+}
+.black-6 {
+	background: #bfbfbf;
+}
+.black-5 {
+	background: #b3b3b3;
+}
+
+/**
+ * product image on card
+ */
+
+.product-img {
+	min-height: 100px;
+}
+
+.jumbotron h2 {
+	margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+	.jumbotron h2 {
+		margin-top: 10px;
+	}
+	
+}
+
+/**
+ * jumbotron animation
+ */
+
+.jumbotron {
+	height: 180px;
+	color: #fff;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+.all-form {
+	width: 300px;
+	margin: 3px;
+	padding: 0 0 4px 0;
+}
+
+.product-img img {
+	border-radius: 10px;
+}

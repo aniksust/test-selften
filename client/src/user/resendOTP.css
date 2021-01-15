@@ -1,0 +1,10 @@
+.otp-resend-btn {
+	text-decoration: underline;
+	color: seagreen;
+}
+.down-color {
+	color: rgb(134, 131, 129);
+}
+.otp-form {
+	padding: 30px;
+}

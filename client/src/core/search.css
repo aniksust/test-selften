@@ -1,0 +1,38 @@
+/*custom css */
+.product-search {
+	box-shadow: 0 0 3px;
+}
+
+.product-search .btn {
+	background: #23264d;
+	color: #fdfdfd;
+}
+.search-bar .input-group-text {
+	counter-reset: #fdfdfd;
+}
+
+.product-search .form-control {
+	border: 4px solid #23264d;
+}
+
+.product-search .mr-2,
+.product-search .mx-2 {
+	margin-right: 0 !important;
+}
+
+.product-search .input-group-lg > .custom-select,
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-append > .btn,
+.input-group-lg > .input-group-append > .input-group-text,
+.input-group-lg > .input-group-prepend > .btn,
+.input-group-lg > .input-group-prepend > .input-group-text {
+	border-radius: 0;
+}
+
+.search-bar .input-group-text {
+	background: transparent;
+	color: #fdfdfd;
+}
+.search-bar {
+	margin-top: 20px;
+}

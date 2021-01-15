@@ -1,0 +1,59 @@
+.topup-form label {
+	margin-bottom: 1px;
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+.select-recharge {
+	padding: 5px;
+	margin-left: 15px;
+	border: 2px solid rgb(194, 191, 191);
+	color: rgb(78, 76, 74);
+	border-radius: 6px;
+	text-align: center;
+	transition: border 2s linear;
+}
+.check-mark {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.3s linear, opacity 0.3s linear;
+}
+.security-code {
+	margin-left: 5px;
+}
+.topup-form-wrapper {
+	max-width: 900px;
+	width: 90%;
+	margin: 0 auto;
+}
+.box{
+	width: 100% !important;
+	text-align: center;
+	background-color: #1a1515 !important;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	margin: 20px 0;
+	height: 50px;
+	border-radius: 0px 20px 0px 20px;
+}
+.flexs{
+	display: block;
+}
+.flexs:hover{
+	color: red;
+	cursor: pointer;
+}
+.recharge{
+	transition: 1.3s;
+}
+.recharge:hover{
+	background-color: #1a1515;
+	color: white;
+	outline: none;
+	border: 0;
+}
+.textaigin{
+	text-align: justify;
+	word-spacing: 3px;
+}

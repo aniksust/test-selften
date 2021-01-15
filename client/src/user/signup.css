@@ -1,0 +1,149 @@
+#otp-form {
+	width: 70%;
+	margin: 0 auto;
+}
+.otp-input {
+	background-color: #fff;
+	border: 1px solid #bcbcbc;
+	color: #444;
+	border-radius: 3px;
+	margin: 3px;
+	padding: 3px;
+	text-align: center;
+}
+.otp-text {
+	font-size: 0.9rem;
+	color: #555;
+}
+.sms-sent-text {
+	width: max-content;
+	background: #7cb33a;
+	padding: 3px 20px;
+	border-radius: 3px;
+	color: #fff;
+}
+.otp-width {
+	max-width: 700px;
+}
+
+.form-input{
+	width: 100%;
+	margin: auto !important;
+}
+.align{
+	width: 400px;
+	margin: 0 auto;
+	border: 3px solid #E6DFEC;
+	border-radius: 20px;
+	margin: auto;
+	height: 400px;
+}
+.full{
+	width: 70%;
+	margin: auto;
+	position: relative;
+	top: 0px;
+}
+
+.inp{
+	border: none;
+	outline: none;
+	border-radius: 5px !important;
+	border-left: 5px solid orange !important;
+}
+.login{
+	font-size: 70px;
+	color: #c0acd1;
+	font-weight: 1200;
+}
+.login2{
+	font-size: 35px;
+	font-weight: 1000;
+	color: #c0acd1;
+}
+.btnn{
+	width: 100% !important;
+    background: #624B78 !important;
+    border-radius: 5px !important;
+    margin-top: 20px;
+    height: 40px !important;
+	color: white !important;
+	margin-bottom: 20px;
+}
+.signup-container{
+	width: 100%; 
+	margin: 0 auto !important; 
+}
+.cont{
+	width: 400px;
+	margin: 0 auto;
+	border: 3px solid #E6DFEC;
+	border-radius: 20px;
+}
+.ali{
+	width: 300px;
+	margin: auto;
+
+}
+
+@media (max-width :600px) and (min-device-width :300px){
+	.form-input{
+		width: 100%;
+		margin: auto !important;
+	}
+	.align{
+		width: 300px;
+		margin: 0 auto;
+		border: 3px solid #E6DFEC;
+		border-radius: 20px;
+		margin: auto;
+		height: 350px;
+	}
+	.full{
+		width: 80%;
+		margin: auto;
+		position: relative;
+		top: 0px;
+	}
+	
+	.inp{
+		border: none;
+		outline: none;
+		border-radius: 5px !important;
+		border-left: 5px solid orange !important;
+	}
+	.login{
+		font-size: 50px;
+		color: #c0acd1;
+		font-weight: 1200;
+	}
+	.login2{
+		font-size: 20px;
+		font-weight: 1000;
+		color: #c0acd1;
+
+	}
+	.btnn{
+		width: 100% !important;
+		background: #624B78 !important;
+		border-radius: 5px !important;
+		margin-top: 20px;
+		height: 40px !important;
+		color: white !important;
+	}
+	.signup-container{
+		width: 100%; 
+		margin: 0 auto !important; 
+	}
+	.cont{
+		width: 300px;
+		margin: 0 auto;
+		border: 3px solid #E6DFEC;
+		border-radius: 20px;
+	}
+	.ali{
+		width: 250px;
+		margin: auto;
+	
+	}
+}
